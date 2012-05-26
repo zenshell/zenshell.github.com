@@ -110,6 +110,22 @@
 </section>
 
 
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("zen_shell", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/zen_shell" class="twitter-follow-button" data-show-count="false">Follow @zen_shell</a>
+  
+</section>
+
 
 
 
